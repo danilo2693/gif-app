@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,4CACF,CAEA,KACE,YACF,CAEA,YACE,aAAc,CACd,aACF","file":"main.b667dbd4.chunk.css","sourcesContent":["* {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n\nbody {\n  padding: 60px;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}"]}
