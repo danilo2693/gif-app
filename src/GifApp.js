@@ -6,7 +6,10 @@ import { Container } from 'react-bootstrap';
 const GifApp = () => {
   const [categories, setCategories] = useState(['Kimetsu no Yaiba']);
   const handleAdd = (newCategory) => {
-    setCategories([newCategory, ...categories]);
+    const categoryFound = categories.find(category => category === newCategory);
+    if(!categoryFound) {
+      setCategories([newCategory, ...categories]);
+    }
   };
   return (
     <>
